@@ -4,17 +4,6 @@ public class MorseCodeDecoder {
       String decoder = "";
       String encoded = "";    
       
-//         for (int i = 0; i < arrOfStr.length; i++)
-//           {
-//             String a = arrOfStr[i];
-//             encoded = MorseCode.get(a);
-//             if(encoded == null && MorseCode.get(arrOfStr[i+1]) == null)
-//               {
-//               encoded = "";
-//               }
-//             decoder = decoder + encoded;
-//           }
-      
         for (int i = 0; i < arrOfStr.length; i++)
           {
             String a = arrOfStr[i];
